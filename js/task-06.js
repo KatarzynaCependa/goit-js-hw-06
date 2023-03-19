@@ -1,4 +1,4 @@
-const inputEl = document.querySelector("#validation-input");
+const inputEl = document.getElementById("validation-input");
 
 const inputBlur = () => {
   inputEl.value.length === +inputEl.dataset.length
