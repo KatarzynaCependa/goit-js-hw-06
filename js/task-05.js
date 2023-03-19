@@ -1,5 +1,5 @@
-const inputValue = document.querySelector("#name-input");
-const outputValue = document.querySelector("#name-output");
+const inputValue = document.getElementById("name-input");
+const outputValue = document.getElementById("name-output");
 
 const inputHandler = (event) => {
   if (inputValue === "") {
