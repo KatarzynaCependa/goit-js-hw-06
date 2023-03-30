@@ -20,7 +20,7 @@ function createBoxes(amount) {
 }
 
 function destroyBoxes() {
-  divBox.remove();
+  divBox.innerHTML = "";
 }
 
 createBtn.addEventListener("click", () => createBoxes(inputEl.value));
